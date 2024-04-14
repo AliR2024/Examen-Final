@@ -19,7 +19,7 @@ namespace Examen_Final
             ValeurNote = valeurNote;
         }
 
-        // Méthode pour afficher la note d'un étudiant pour un cours
+        // Méthode pour afficher la note d'un étudiant pour un cours.
         public override string ToString()
         {
             return $"Etudiant: {NumeroEtudiant}, Cours: {NumeroCours}, Note: {ValeurNote}";
