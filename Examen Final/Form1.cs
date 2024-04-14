@@ -73,7 +73,7 @@ namespace Examen_Final
             }
 
 
-            // Confirmation de l'ajout réussi des informations et rafraîchissement de l'affichage.
+            // Confirmation de l'ajout réussi des informations et rafraîchissement de l'affichage
             MessageBox.Show("Les informations de l'étudiant, du cours, et de la note ont été ajoutées avec succès.", "Ajout Réussi", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }

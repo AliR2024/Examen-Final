@@ -19,7 +19,7 @@ namespace Examen_Final
             Titre = titre;
         }
 
-        // Méthode pour afficher les détails d'un cours
+        // Méthode pour afficher les détails d'un cours.
         public override string ToString()
         {
             return $"{NumeroCours} - {Code} : {Titre}";

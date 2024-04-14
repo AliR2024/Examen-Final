@@ -225,13 +225,14 @@
             // 
             // btnAjouter
             // 
+            btnAjouter.BackColor = Color.SpringGreen;
             btnAjouter.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             btnAjouter.Location = new Point(172, 458);
             btnAjouter.Name = "btnAjouter";
             btnAjouter.Size = new Size(133, 29);
             btnAjouter.TabIndex = 20;
             btnAjouter.Text = "Ajouter";
-            btnAjouter.UseVisualStyleBackColor = true;
+            btnAjouter.UseVisualStyleBackColor = false;
             btnAjouter.Click += btnAjouter_Click;
             // 
             // printDocument
