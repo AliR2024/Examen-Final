@@ -55,7 +55,7 @@ namespace Examen_Final
             string fileName = $"{nouvelEtudiant.Nom} {nouvelEtudiant.Prenom}.txt";
             string filePath = Path.Combine(dossierEtudiants, fileName);
 
-            // Enregistrement des informations de l'étudiant, du cours et de la note dans le fichier.
+            // Enregistrement des informations de l'étudiant, du cours et de la note dans le fichier
             using (StreamWriter sw = new StreamWriter(filePath, true)) // Append set to true to avoid overwriting.
             {
                 sw.WriteLine($"Numero d'Etudiant: {nouvelEtudiant.NumeroEtudiant}");

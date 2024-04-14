@@ -1,0 +1,7 @@
+Numero d'Etudiant: 48
+Nom: Djibril
+Prenom: Abdoulaye
+Numero du Cours: 8547
+Code du Cours: CS54
+Titre du Cours: Développement d'applications mobiles pour Android
+Note: 85
