@@ -1,0 +1,7 @@
+Numero d'Etudiant: 12
+Nom: Karim
+Prenom: Baratli
+Numero du Cours: 1452
+Code du Cours: AQ078
+Titre du Cours: Assurance de qualité logicielle
+Note: 100

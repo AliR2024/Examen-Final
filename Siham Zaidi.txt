@@ -1,0 +1,7 @@
+Numero d'Etudiant: 1212
+Nom: Siham
+Prenom: Zaidi
+Numero du Cours: 124565
+Code du Cours: AS4542
+Titre du Cours: Introduction à la programmation Web client
+Note: 40
