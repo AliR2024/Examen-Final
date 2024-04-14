@@ -11,7 +11,7 @@ namespace Examen_Final
         public int NumeroEtudiant { get; set; }
         public string Nom { get; set; }
         public string Prenom { get; set; }
-        // Constructeur
+        // Constructeurs
         public Etudiant(int numero, string nom, string prenom)
         {
             NumeroEtudiant = numero;
