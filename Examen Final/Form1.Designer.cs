@@ -55,7 +55,7 @@
             textId.BorderStyle = BorderStyle.FixedSingle;
             textId.Location = new Point(172, 150);
             textId.Name = "textId";
-            textId.Size = new Size(170, 27);
+            textId.Size = new Size(179, 27);
             textId.TabIndex = 0;
             // 
             // label1
@@ -174,9 +174,9 @@
             btnRechercher.FlatStyle = FlatStyle.System;
             btnRechercher.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             btnRechercher.ForeColor = SystemColors.ActiveBorder;
-            btnRechercher.Location = new Point(313, 149);
+            btnRechercher.Location = new Point(347, 149);
             btnRechercher.Name = "btnRechercher";
-            btnRechercher.Size = new Size(167, 29);
+            btnRechercher.Size = new Size(133, 29);
             btnRechercher.TabIndex = 14;
             btnRechercher.Text = "Rechercher";
             btnRechercher.UseVisualStyleBackColor = true;
@@ -203,13 +203,15 @@
             // 
             // BtnEffacer
             // 
-            BtnEffacer.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            BtnEffacer.BackColor = Color.Red;
+            BtnEffacer.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic);
+            BtnEffacer.ForeColor = SystemColors.ButtonHighlight;
             BtnEffacer.Location = new Point(347, 458);
             BtnEffacer.Name = "BtnEffacer";
             BtnEffacer.Size = new Size(133, 29);
             BtnEffacer.TabIndex = 18;
             BtnEffacer.Text = "Effacer";
-            BtnEffacer.UseVisualStyleBackColor = true;
+            BtnEffacer.UseVisualStyleBackColor = false;
             BtnEffacer.Click += BtnEffacer_Click;
             // 
             // btnImprimer
